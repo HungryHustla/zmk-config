@@ -48,10 +48,10 @@
 
     nav {
             bindings = <
-    &kp ESC      &kp N7     &kp N8    &kp N9       &none &none &none    &none     &none      &kp DEL
-    &kp TAB      &kp N4     &kp N5    &kp N6       &none &none &none    &none     &none      &none
-    &trans       &kp N1     &kp N2    &kp N3 &none &none    &none     &kp UP     &none
-    &bt BT_CLR      &bt BT_NXT      &bt BT_PRV   &trans  &trans  &kp LEFT   &kp DOWN    &kp RIGHT
+    &kp ESC      &kp N7     &kp N8    &kp N9       &KP_PLUS &none &none    &none     &none      &kp DEL
+    &kp TAB      &kp N4     &kp N5    &kp N6       &KP_MINUS &none &none    &none     &none      &none
+    &trans       &kp N1     &kp N2    &kp N3       &KP_EQUAL &none    &kp COMMA     &kp UP     &kp FSLH
+    &bt BT_CLR      &bt BT_SEL 0      &bt BT_NXT   &trans  &trans  &kp LEFT   &kp DOWN    &kp RIGHT
             >;
         };
     };
