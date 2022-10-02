@@ -48,10 +48,10 @@
 
     nav {
             bindings = <
-    &bt BT_CLR &bt BT_NXT &bt BT_PRV &none       &none &none &none       &kp UP       &none     &kp BSPC
+    &none &none &none &none       &none &none &none       &kp UP       &none     &kp BSPC
     &trans     &trans     &trans     &trans      &none &none &kp LEFT    &kp DOWN     &kp RIGHT &none
     &none                 &none      &none       &none &none &none       &none        &kp UP     &none
-    &none      &none      &none         &trans        &trans             &kp LEFT      &kp DOWN    &kp RIGHT
+    &bt BT_CLR      &bt BT_NXT      &bt BT_PRV         &trans        &trans             &kp LEFT      &kp DOWN    &kp RIGHT
             >;
         };
     };
