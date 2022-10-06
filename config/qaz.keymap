@@ -49,10 +49,10 @@
 
     NUMBRS {
             bindings = <
-    &kp ESC      &kp N7      &kp N8    &kp N9       &kp MINUS &none      &none         &none      &none      &kp DEL
-    &kp TAB      &kp N4      &kp N5    &kp N6       &kp PLUS  &none      &none         &none      &none      &none
-    &trans       &kp N1      &kp N2    &kp N3       &kp EQUAL &none      &kp COMMA     &kp UP     &kp FSLH
-    &bt BT_CLR   &bt BT_NXT  &kp N0   &trans       &trans    &kp LEFT   &kp DOWN      &kp RIGHT
+    &kp ESC      &kp N7      &kp N8    &kp N9       &kp MINUS &kp F9     &kp F10    &kp F11    &kp F12     &kp DEL
+    &kp TAB      &kp N4      &kp N5    &kp N6       &kp PLUS  &kp F5     &kp F6     &kp F7     &kp F8      &none
+    &trans       &kp N1      &kp N2    &kp N3       &kp EQUAL &kp F1     &kp F2     &kp F3     &kp F4
+    &bt BT_CLR   &bt BT_NXT  &kp N0   &trans       &trans     &kp K_VOL_DN   &kp K_PLAY_PAUSE   &kp K_VOL_UP
             >;
         };
     GAMING { 
