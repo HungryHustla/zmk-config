@@ -40,10 +40,10 @@
         };
         num_sym {
             bindings = <
-    &kp EXCL     &kp AT_SIGN    &kp POUND   &kp DOLLAR   &kp PRCNT       &kp CARET  &kp AMPS     &kp STAR      &kp LPAR    &kp RPAR
-    &kp LBKT     &kp RBKT       &kp LBRC    &kp RBRC     &kp UNDERSCORE  &kp TILDE  &kp LEFT     &kp DOWN      &kp UP      &kp RIGHT
-    &none        &none          &none       &none        &none           &none      &kp COMMA    &kp DOT       &kp FSLH
-    &none        &none          &none       &trans       &trans          &bootloader     &reset  &kp C_SLEEP
+    &kp EXCL     &kp AT_SIGN  &kp POUND   &kp DOLLAR   &kp PRCNT       &kp CARET  &kp AMPS     &kp STAR      &kp LPAR    &kp RPAR
+    &kp LBKT     &kp RBKT     &kp LBRC    &kp RBRC     &kp UNDERSCORE  &kp TILDE  &kp LEFT     &kp DOWN      &kp UP      &kp RIGHT
+    &none        &none        &none       &none        &none           &none      &kp COMMA    &kp DOT       &kp FSLH
+    &none        &none        &none       &trans       &trans          &bootloader     &reset  &kp C_SLEEP
             >;
         };
 
@@ -52,12 +52,13 @@
     &kp ESC      &kp N7      &kp N8    &kp N9       &kp MINUS &none      &none         &none      &none      &kp DEL
     &kp TAB      &kp N4      &kp N5    &kp N6       &kp PLUS  &none      &none         &none      &none      &none
     &trans       &kp N1      &kp N2    &kp N3       &kp EQUAL &none      &kp COMMA     &kp UP     &kp FSLH
-    &bt BT_CLR   &bt BT_NXT  &kp N0   &trans       &trans    &kp LEFT   &kp DOWN      &kp RIGHT
+    &bt BT_CLR   &bt BT_NXT  &kp N0    &trans       &trans    &kp LEFT   &kp DOWN      &kp RIGHT
             >;
         };
+        
     GAMING { 
             bindings = <          
-    &kp TAB      &kp Q     &kp W    &kp E       &kp R  &kp T      &none         &none      &none      &kp DEL
+    &kp TAB      &kp Q     &kp W    &kp E       &kp R  &kp T      &none         &none      &none      &kp B
     &kp LCTRL    &kp A     &kp S    &kp D       &kp F  &kp G      &none         &none      &none      &none
     &kp LSHFT    &kp Z     &kp X    &kp C       &kp V  &kp B      &none         &kp COMMA  &kp FSLH
     &kp ESC      &kp LGUI  &kp LALT &kp SPACE   &lt NAV SPACE     &kp none   &kp none      &tog GAMING   
