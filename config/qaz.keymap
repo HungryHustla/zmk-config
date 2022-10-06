@@ -57,10 +57,10 @@
         };
     GAMING { 
             bindings = <          
-    &kp TAB      &kp Q     &kp W    &kp E       &kp R  &kp T      &none         &none      &kp DEL      &kp BSPC
-    &kp LCTRL    &kp A     &kp S    &kp D       &kp F  &kp G      &none         &none      &none      &none
-    &kp LSHFT    &kp Z     &kp X    &kp C       &kp V  &kp B      &none         &kp COMMA  &kp FSLH
-    &kp ESC      &kp LGUI  &kp LALT &kp SPACE   &lt NUMBRS SPACE     &none         &none      &tog GAMING   
+    &kp TAB      &kp Q     &kp W    &kp E       &kp R  &kp T      &kp Y         &kp u      &kp DEL      &kp BSPC
+    &kp LCTRL    &kp A     &kp S    &kp D       &kp F  &kp G      &kp H         &kp J      &kp K        &kp L
+    &kp LSHFT    &kp Z     &kp X    &kp C       &kp V  &kp B      &kp N         &kp M      &none
+    &kp ESC      &kp LGUI  &kp LALT &kp SPACE   &lt NUMBRS SPACE     &kp COMMA         &kp FSLH      &tog GAMING   
             >;
         };
     };
