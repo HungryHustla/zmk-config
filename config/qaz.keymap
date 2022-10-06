@@ -60,7 +60,7 @@
     &kp TAB      &kp Q     &kp W    &kp E       &kp R  &kp T      &none         &none      &none      &kp DEL
     &kp LCTRL    &kp A     &kp S    &kp D       &kp F  &kp G      &none         &none      &none      &none
     &kp LSHFT    &kp Z     &kp X    &kp C       &kp V  &kp B      &none         &kp COMMA  &kp FSLH
-    &kp ESC      &kp LGUI  &kp LALT &kp SPACE   &lt NAV SPACE     &kp none   &kp none      &tog GAMING   
+    &kp ESC      &kp LGUI  &kp LALT &kp SPACE   &lt NAV SPACE     &none         &none      &tog GAMING   
             >;
         };
     };
