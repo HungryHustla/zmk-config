@@ -40,10 +40,10 @@
         };
         SYMBOLS {
             bindings = <
-    &kp EXCL     &kp AT_SIGN   &kp POUND  &kp DOLLAR    &kp PRCNT      &kp CARET &kp AMPS     &kp STAR      &kp LPAR    &kp RPAR
-    &kp LBKT     &kp RBKT      &kp LBRC   &kp RBRC      &kp UNDERSCORE &kp TILDE &kp LEFT     &kp DOWN      &kp UP      &kp RIGHT
-    &kp COLON    &kp SEMI      &none      &none  &none  &none          &kp COMMA              &kp DOT       &kp FSLH
-    &none &none    &none         &trans        &trans             &bootloader     &reset    &kp C_SLEEP
+    &kp EXCL     &kp AT_SIGN   &kp POUND  &kp DOLLAR    &kp PRCNT      &kp CARET        &kp AMPS     &kp STAR      &kp LPAR    &kp RPAR
+    &kp LBKT     &kp RBKT      &kp LBRC   &kp RBRC      &kp LESS_THAN  &kp GREATER_THAN &kp LEFT     &kp DOWN      &kp UP      &kp RIGHT
+    &kp COLON    &kp SEMI      &kp UNDERSCORE   &kp TILDE  &none       &none            &kp COMMA    &kp DOT       &kp FSLH
+    &none &none    &none         &trans        &trans             &bootloader     &reset    &kp C_SLEE
             >;
         };
 
